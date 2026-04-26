@@ -110,8 +110,8 @@ round.addEventListener("mouseover", function(){
     pomo.style.backgroundColor = "transparent";
     long.style.backgroundColor = "transparent";
     body.style.backgroundColor ="#297479"
-    min.textContent = "00";
-    sec.textContent ="10";
+    min.textContent = "05";
+    sec.textContent ="00";
     start.style.color = "#297479";
     pause.style.color ="#297479"
     page.play();
@@ -140,7 +140,7 @@ round.addEventListener("mouseover", function(){
     }
     }
     /* switching to long break !! */
-    if (count == 2) {  
+    if (count == 4) {  
     long.style.backgroundColor = "#0b0a0a33";
     pomo.style.backgroundColor = "transparent";
     short.style.backgroundColor = "transparent";

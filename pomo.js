@@ -135,8 +135,8 @@ round.addEventListener("mouseover", function(){
     timer = null; 
      
     if (!timer) {
-    min.textContent = "00";
-    sec.textContent ="10";
+    min.textContent = "25";
+    sec.textContent ="00";
     }
     }
     /* switching to long break !! */
@@ -184,8 +184,8 @@ short.addEventListener("click",function(){
     pomo.style.backgroundColor = "transparent";
     long.style.backgroundColor = "transparent";
     body.style.backgroundColor ="#297479"
-    min.textContent = "00";
-    sec.textContent ="10";
+    min.textContent = "05";
+    sec.textContent ="00";
     start.style.color = "#297479";
     pause.style.color ="#297479"
     page.play();

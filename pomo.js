@@ -212,8 +212,8 @@ pomo.addEventListener("click",function(){
     short.style.backgroundColor = "transparent";
     body.style.backgroundColor ="#b04a4a"
     if (!timer) {
-              min.textContent = "00";
-    sec.textContent ="10";
+              min.textContent = "25";
+    sec.textContent ="00";
     }
    
      start.style.color ="#b04a4a";

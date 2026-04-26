@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="pomo.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Henny+Penny&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+    <title>Pomodoro</title>
+</head>
+<body>
+    <div class="popuptime" id="popup1">
+        <form class="formm">
+            <div class="qst">
+            <label for="minutes"> Minute : </label>
+            <input type="number" id="M"><br>
+            </div> 
+             <button type="button" id="enter"> Enter </button>
+        </form>
+    </div>
+    <div class="txtt">
+        <span class="material-symbols-outlined" id="arrw">keyboard_backspace</span>
+           <p class="txt"> Click Here for more options !  </p>
+    
+    </div>
+
+        <nav class="navv">
+      <span class="material-symbols-outlined" id="menu">density_medium</span>
+        </nav>
+        <ul class="nave">
+          <li> <span class="material-symbols-outlined" id="close">close</span> </li> 
+        <li class="option" id="timeee"> Change Time </li>
+        <li class="option" id="round"> Rounds </li>
+        <li class="option" id="sound"> Alarm Sound </li>
+        </ul>
+ 
+    <div class="timer" id="timer">
+        <div class="ani" id="ani">
+            <div class="rd" id="rd"></div>
+        </div>
+       <div class="choice" id="choice">
+        <ul class="S">
+        <li class="choices" id="Pomodoro">Pomodoro</li>
+        <li class="choices" id="ShortBreak" >ShortBreak</li>
+        <li class="choices" id="LongBreak">LongBreak</li>
+        </ul>
+        <div class="box">
+            <div class="time" id="minute">00</div><span id="deuxpt">:</span><div class="time" id="seconde">10</div>
+            <button type="button" id="start" > START</button>
+            <button type="button" id="pause">PAUSE</button>
+        </div>
+       </div>
+
+
+
+
+
+    </div>
+    <script src="pomo.js"></script>
+</body>
+</html>
